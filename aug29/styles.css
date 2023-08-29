@@ -1,0 +1,39 @@
+/* Structure */
+
+body {
+    background-color:beige;
+}
+
+/* Tables */
+
+table {
+    border-collapse: collapse;
+}
+
+td, /* the comma makes style shorter*/
+th {
+    border:1px solid blue;
+}
+
+th {
+    background-color: purple;
+}
+
+td {
+    background-color: yellow;
+}
+
+/* Typography (Fonts)*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color:green;
+    color:aqua;
+    font-style:oblique;
+}
+
+p {
+    color: blue;
+}
