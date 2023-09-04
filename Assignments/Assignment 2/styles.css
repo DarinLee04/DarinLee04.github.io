@@ -1,0 +1,69 @@
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background: url(../../images/background.jpeg);
+    width: 75%;
+    margin: auto;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+a {
+    color: rgb(1, 126, 184);
+}
+
+h2 {
+    color:aquamarine;
+}
+
+img {
+   padding: 5px;
+   margin: 10px;
+   border: 5px solid white;
+}
+
+td,
+th {
+    border: 2px solid rgba(199, 199, 199, 0.623);
+    padding: 5px;
+}
+
+th {
+    background-color: rgba(128, 128, 128, 0.411);
+}
+
+td {
+    background-color: rgba(128, 128, 128, 0.613);
+}
+
+.head {
+    color:lightseagreen;
+}
+
+.tabl {
+    color:white;
+}
+
+a:hover {
+    color:lightskyblue;
+    background-color:darkblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#bod {
+    background: rgb(0, 0, 0, 0.8);
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+#pen {
+    color:lightskyblue;
+}
+
+.para {
+    color: whitesmoke;
+}
+.movie {
+    font-style: italic;
+}

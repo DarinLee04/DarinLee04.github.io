@@ -1,0 +1,44 @@
+
+body {
+    background-color: #3B270C;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color:#d8cbc4;
+}
+
+a {
+    color:#3B270C;
+}
+
+a:hover {
+    color:white;
+}
+
+#mainpage {
+    background: #8b6c5c; 
+    width: 40%;
+    margin: auto;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+#assign {
+    color: #bca895;
+}
+
+#descr {
+    color: white;
+}
+
+#name {
+    color:#3d251e;
+}
+
+img {
+    padding: 5px;
+    margin: 10px;
+    border: 7px solid black;
+    border-radius: 5px;
+}
