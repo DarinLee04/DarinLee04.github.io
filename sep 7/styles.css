@@ -1,0 +1,91 @@
+/* Structure */
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#main-header {
+    margin: auto;
+    width: 80%;
+    background-color: burlywood;
+    padding: 5px;
+}
+
+#main-footer {
+    margin: auto;
+    width: 80%;
+    background-color: maroon;
+    padding: 5px;
+}
+
+/* Horizontal Navigation */
+.hor-nav ul {
+    padding-left: 0px;
+}
+
+.hor-nav li {
+    list-style-type: none;
+    margin: 5px;
+}
+
+.hor-nav a {
+    text-decoration: none;
+}
+
+/* Main Navigation */
+#main-nav {
+    
+}
+/* User Navigation */
+
+/* Typography */
+h1 {
+    text-align: center;
+}
+
+#main-footer,
+#main-footer a {
+    color: white;
+}
+
+#main-footer ul {
+    padding-left: 1%;
+}
+
+#main-footer li {
+    list-style-type: none;
+}
+#main-footer a {
+    text-decoration: none;
+}
+
+.footer-logo {
+    font-size: 1.5em;
+}
+/* Larger Resolution */
+
+@media only screen and (min-width: 768px) {
+    .hor-nav ul,
+    .flex-container {
+        display: flex;
+    }
+    #main-nav ul {
+        justify-content: center;
+    }
+
+    /* ..one solution
+    #user-nav {
+        position: absolute;
+        top: 2%;
+        right: 10%;
+    }
+    */
+
+    .flex-container {
+        justify-content: space-between;
+    }
+
+    .col1of2 {
+        flex: 1;
+    }
+}
