@@ -1,27 +1,33 @@
-
+/* Typography */
 body {
     background-color: #3B270C;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Structure */
 h1 {
     color:#d8cbc4;
 }
 
 a {
-    color:#3B270C;
+    color:white;
 }
 
 a:hover {
     color:white;
 }
 
-#mainpage {
+/*#mainpage {
     background: #8b6c5c; 
     width: 40%;
     margin: auto;
     padding: 0px 5px;
     border-radius: 5px;
+}*/
+
+#mainpage h1,
+h2 {
+    text-align:center;
 }
 
 #assign {
@@ -33,12 +39,28 @@ a:hover {
 }
 
 #name {
-    color:#3d251e;
+    color:white;
+    text-align:start;
+}
+
+#first,
+#second,
+#third {
+    background-color: #bca895;
+    width: 21%;
+    padding: 5px 20px;
+    margin: 20px;
 }
 
 img {
-    padding: 5px;
-    margin: 10px;
-    border: 7px solid black;
-    border-radius: 5px;
+    width: 100%;
+}
+
+/* Larger Resolutions */
+@media (min-width: 900px) {
+    
+    .flex-container {
+        display: flex;
+        justify-content: center;
+    }
 }
