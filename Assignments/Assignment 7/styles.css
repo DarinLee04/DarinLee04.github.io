@@ -56,9 +56,6 @@ h3 {
 .hidehead2 {
     display: none;
 }
-.hide-firstSec {
-    display: none;
-}
 /* Larger Resolutions */
 @media only screen and (min-width: 600px) { /* when the min px of screen is over 600px, do this */
     .columns,
