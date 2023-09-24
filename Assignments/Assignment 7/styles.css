@@ -1,0 +1,80 @@
+/* Structure */
+#main-header {
+    background-color:pink;
+}
+.padded-area {
+    padding: 2px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    
+}
+.col {
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: grey;
+}
+
+/* Who's Oldest */
+#firstSec {
+    background-color: lightblue;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+label,
+input {
+    display: block;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    padding: 5px;
+}
+#button-compare {
+    margin-left: 20px;
+}
+/* Typography */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-header h1,
+h3 {
+    text-align: center;
+}
+
+#hamburger div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.hidehead2 {
+    display: none;
+}
+.hide-firstSec {
+    display: none;
+}
+/* Larger Resolutions */
+@media only screen and (min-width: 600px) { /* when the min px of screen is over 600px, do this */
+    .columns,
+    .col {
+        display: flex;
+    }
+    .col1of2 {
+        flex: 1;
+    }
+    #hamburger {
+        display: none;
+    }
+    .hidehead2 {
+        display: block;
+    }
+    .hide-firstSec {
+        display: block;
+    }
+}
