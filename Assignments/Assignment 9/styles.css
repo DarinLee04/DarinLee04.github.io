@@ -1,0 +1,38 @@
+/* Structure */
+body {
+    background-color: #333333;
+}
+
+/* Typography */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Quote */
+#quote {
+    background-color: #FFFFFF;
+    margin-right: 10%;
+    margin-top: 15%;
+    text-align: center;
+    width: 40%;
+}
+
+/* Rainbow */
+#rainbow {
+    background-color: #FFFFFF;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    text-align: left;
+    width: 40%;
+}
+#rainbow h1 {
+    text-align: center;
+}
+/* Larger Resolutions */
+@media (min-width: 900px) {
+    
+    .flex-container {
+        display: flex;
+        justify-content: center;
+    }
+}
