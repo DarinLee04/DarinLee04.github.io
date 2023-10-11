@@ -17,14 +17,6 @@ a:hover {
     color:white;
 }
 
-/*#mainpage {
-    background: #8b6c5c; 
-    width: 40%;
-    margin: auto;
-    padding: 0px 5px;
-    border-radius: 5px;
-}*/
-
 #mainpage h1,
 h2 {
     text-align:center;
@@ -43,35 +35,25 @@ h2 {
     text-align:start;
 }
 
-#first,
-#second,
-#third,
-#fourth,
-#fifth
-#sixth,
-#seventh,
-#project-part1,
-#eight {
+.format {
     background-color: #bca895;
-    width: 21%;
+    width: 100%;
     padding: 5px 20px;
     margin: 20px;
     flex: 1;
+    text-align: center;
 }
 
 
 
-.flex-container {
-    flex-wrap:wrap;
-    display: flex;
-    justify-content: center;
-}
+
 /* Larger Resolutions */
 @media (min-width: 600px) {
     
     .flex-container {
-        
-        display: inline;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
       
     }
 }
