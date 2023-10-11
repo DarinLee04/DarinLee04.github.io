@@ -42,6 +42,36 @@ h1 {
     text-align: center;
 }
 
+/* Order Now */
+#num-cookie {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+#num-cookie label,
+#num-cookie input,
+#add {
+    display: block;
+}
+#num-cookie label {
+    width: 200px;
+    text-align: right;
+    padding: 5px;
+}
+#txt-cookie1,
+#txt-cookie2,
+#txt-cookie3,
+#txt-cookie4,
+#txt-cookie5,
+#txt-cookie6,
+#txt-cookie7,
+#txt-cookie8 {
+    width: 50px;
+}
+.columns {
+    margin: 5px;
+}
+
 /* Larger Resolutions */
 
 @media only screen and (min-width: 900px) {
@@ -58,4 +88,8 @@ h1 {
     .hide-small {
         display: block;
     }
+    .columns {
+        display: flex;
+    }
+    
 }
