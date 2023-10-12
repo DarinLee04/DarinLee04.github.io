@@ -22,8 +22,12 @@ h2 {
     text-align:center;
 }
 
-#assign {
+#assign-h {
     color: #bca895;
+}
+
+#project-h {
+    color:#658750
 }
 
 #descr {
@@ -35,8 +39,17 @@ h2 {
     text-align:start;
 }
 
-.format {
+.format-assign {
     background-color: #bca895;
+    width: 100%;
+    padding: 5px 20px;
+    margin: 20px;
+    flex: 1;
+    text-align: center;
+}
+
+.format-project {
+    background-color: #658750;
     width: 100%;
     padding: 5px 20px;
     margin: 20px;
